@@ -1,0 +1,72 @@
+.podium-list {
+    text-align: center;
+}
+
+.podium-item {
+    vertical-align: top;
+    display: inline-block;
+    /*border: 1px solid black;*/
+    padding: 1.5em;
+    width: 325px;
+    text-align: left;
+}
+
+.trophy-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 1em;
+    top: -0.625em;
+}
+.trophy-stack .fa-trophy,
+.trophy-stack .trophy-ranking {
+    position: absolute;
+}
+.trophy-stack .trophy-ranking {
+    color: white;
+    top: 0.625em;
+    left: 0.625em;
+    width: 1.375em;
+    height: 0.75em;
+    font-family: sans-serif;
+    font-size: 0.71429em;
+    font-weight: 700;
+    line-height: 0.57143em;
+    text-align: center;
+}
+
+.trophy-stack.rank-1 .fa-trophy{
+    color: gold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+}
+
+.trophy-stack.rank-1 .trophy-ranking{
+    color: black;
+}
+
+.trophy-stack.rank-2 .fa-trophy{
+    color: silver;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+}
+
+.trophy-stack.rank-2 .trophy-ranking{
+    color: black;
+}
+
+.trophy-stack.rank-3 .fa-trophy{
+    color: #cd7f32;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+}
+
+.trophy-stack.rank-3 .trophy-ranking{
+    color: black;
+}
+
+.podium-item .list-item {
+    display: inline-block;
+    text-align: center;
+    width: 1.5em;
+}

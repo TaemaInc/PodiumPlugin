@@ -1,0 +1,29 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    name:
+        label: Nom
+    date:
+        label: Date
+    discipline:
+        label: Discipline
+    ranking:
+        label: Placement
+
+
+
+
+
+
+
+#        'ranking' => 1,
+#                    'name' => 'Championnat Nord-Américain',
+#                    'date' => 'Octobre 2014',
+#                    'discipline' => 'Kiterace',
+#                    'category' => 'Femmes',
+#                    'location' => 'San Diego Californie'

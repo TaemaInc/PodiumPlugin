@@ -1,0 +1,29 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Nom
+        description: Nom du championnat, course ou compétition
+
+    discipline:
+        label: Discipline
+        description: Quelle discipline sportive ce résultat a-t-il été obtenu?
+
+    ranking:
+        label: Positionnement
+        description: 1ère, 2ème, 3ème... position
+
+    date:
+        label: Date
+        description: Date de l'évènement
+        type: datepicker
+
+    category:
+        label: Catégorie
+        description: "Ex: Femmes"
+
+    location:
+        label: Emplacement
+        description: Le lieu où a eu lieu le championnat, course, ou compétition

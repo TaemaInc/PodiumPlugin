@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Result
+
+# Model Form Field configuration
+form: $/mathieutanguay/podium/models/result/fields.yaml
+
+# Model Class name
+modelClass: Mathieutanguay\Podium\Models\Result
+
+# Default redirect location
+defaultRedirect: mathieutanguay/podium/results
+
+# Create page
+create:
+    title: Create Result
+    redirect: mathieutanguay/podium/results/update/:id
+    redirectClose: mathieutanguay/podium/results
+
+# Update page
+update:
+    title: Edit Result
+    redirect: mathieutanguay/podium/results
+    redirectClose: mathieutanguay/podium/results
+
+# Preview page
+preview:
+    title: Preview Result

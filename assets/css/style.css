@@ -37,8 +37,11 @@
 
 .trophy-stack.rank-1 .fa-trophy{
     color: gold;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: gray;
+    text-shadow:
+            -1px -1px 0 gray,
+            1px -1px 0 gray,
+            -1px 1px 0 gray,
+            1px 1px 0 gray;
 }
 
 .trophy-stack.rank-1 .trophy-ranking{
@@ -47,8 +50,11 @@
 
 .trophy-stack.rank-2 .fa-trophy{
     color: silver;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: gray;
+    text-shadow:
+            -1px -1px 0 gray,
+            1px -1px 0 gray,
+            -1px 1px 0 gray,
+            1px 1px 0 gray;
 }
 
 .trophy-stack.rank-2 .trophy-ranking{

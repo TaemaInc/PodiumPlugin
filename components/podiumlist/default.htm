@@ -5,7 +5,7 @@
         <div class="podium-item">
             <p class="lead">{% partial 'podiumList::trophy' ranking=result.ranking %} {{ result.name }}</p>
             <p>
-                <span class="list-item"><i class="fa fa-list"></i></span> Catégorie {{ result.category }}<br>
+                <span class="list-item"><i class="fa fa-list"></i></span> {{ 'mathieutanguay.podium::lang.app.category'|trans }} {{ result.category }}<br>
                 <span class="list-item"><i class="fa fa-calendar-o"></i></span> {{ result.date | date('F Y') }}<br>
                 <span class="list-item"><i class="fa fa-tag"></i></span> {{ result.discipline }}<br>
                 <span class="list-item"><i class="fa fa-map-marker"></i></span> {{ result.location}}

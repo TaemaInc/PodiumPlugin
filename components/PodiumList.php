@@ -32,6 +32,9 @@ class PodiumList extends ComponentBase
     {
         $this->addCss('/plugins/mathieutanguay/podium/assets/css/style.css');
 
-        $this->results = Result::orderBy('date', 'desc')->get();
+        $this->results = Result::orderBy('discipline', 'asc')
+            ->orderBy('date', 'desc')
+            ->get()
+            ->groupBy('discipline')->all();
     }
 }
